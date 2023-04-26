@@ -16,7 +16,7 @@ namespace AzureADConsole
             string clientSecret = "8LQ8Q~Iq4HtHkDdacx1NiFq1ATgV2FrD9pM~fbqW"; // Reemplazar con el secreto de cliente de la aplicación registrada en Azure AD
             string resourceUrl = "https://graph.microsoft.com"; // Reemplazar con el recurso al que se quiere acceder
             string username = "earg@citlali.mx"; // Reemplazar con el nombre de usuario del usuario de Azure AD
-            string password = "M3d3ll1n21072022"; // Reemplazar con la contraseña del usuario de Azure AD
+            string password = "PASSWORD"; // Reemplazar con la contraseña del usuario de Azure AD
 
             // Crear el cliente HTTP
             HttpClient client = new HttpClient();
