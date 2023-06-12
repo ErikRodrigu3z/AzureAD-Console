@@ -11,11 +11,11 @@ namespace AzureADConsole
         static async Task Main(string[] args)
         {
             // Configurar los parámetros de autenticación
-            string tenantId = "fe920e13-933e-4199-9b6b-43f16efa2c5c"; // Reemplazar con el ID de inquilino de Azure AD
-            string clientId = "b5366365-e816-4999-9cb4-c2af55e865d0"; // Reemplazar con el ID de cliente de la aplicación registrada en Azure AD
-            string clientSecret = "8LQ8Q~Iq4HtHkDdacx1NiFq1ATgV2FrD9pM~fbqW"; // Reemplazar con el secreto de cliente de la aplicación registrada en Azure AD
+            string tenantId = ""; // Reemplazar con el ID de inquilino de Azure AD
+            string clientId = ""; // Reemplazar con el ID de cliente de la aplicación registrada en Azure AD
+            string clientSecret = ""; // Reemplazar con el secreto de cliente de la aplicación registrada en Azure AD
             string resourceUrl = "https://graph.microsoft.com"; // Reemplazar con el recurso al que se quiere acceder
-            string username = "earg@citlali.mx"; // Reemplazar con el nombre de usuario del usuario de Azure AD
+            string username = "email"; // Reemplazar con el nombre de usuario del usuario de Azure AD
             string password = "PASSWORD"; // Reemplazar con la contraseña del usuario de Azure AD
 
             // Crear el cliente HTTP
